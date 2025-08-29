@@ -1,5 +1,7 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
+const pic = require("picocolors")
+
 
 const folder = process.argv[2] ?? ".";
 
@@ -8,7 +10,7 @@ async function ls(folder) {
   try {
     files = await fs.readdir(folder);
   } catch (error) {
-    console.log(`Could not read directory ${folder}`);
+    console.error(pic.red(`Could not read directory ${folder}`));
     process.exit(1);
   }
 
@@ -27,7 +29,7 @@ async function ls(folder) {
     const fileSize = fileStat.size;
     const fileModified = fileStat.mtime.toLocaleString(); // ojo: era toLocalString (mal escrito)
 
-    return `${fileType} ${file.padEnd(20)} ${fileSize.toString().padStart(10)} ${fileModified}`;
+    return `${pic.bgMagenta(fileType)} ${pic.yellow(file.padEnd(20))} ${pic.blue(fileSize.toString().padStart(10))} ${pic.red(fileModified)}`;
   });
 
   const filesInfo = await Promise.all(filePromises);

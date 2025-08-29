@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-course",
+  "version": "1.0.0",
+  "description": "NodeJs Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebaGut2103/NodeJS_example.git"
+  },
+  "keywords": [
+    "course",
+    "node",
+    "nodejs",
+    "SebaGut2103"
+  ],
+  "author": "SebaGut2103",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebaGut2103/NodeJS_example/issues"
+  },
+  "homepage": "https://github.com/SebaGut2103/NodeJS_example#readme",
+  "dependencies": {
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  }
+}
