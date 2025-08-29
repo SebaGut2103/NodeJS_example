@@ -1,6 +1,6 @@
 # NodeJS_example  
 
-Este repositorio contiene ejemplos prácticos para aprender los **primeros pasos con Node.js**, inspirados en el curso ["Curso de Node.js: introducción y primeros pasos"](https://www.youtube.com/@midulive).  
+Este repositorio contiene ejemplos prácticos para aprender los **primeros pasos con Node.js**, inspirados en el curso ["CURSO DE NODE.JS DESDE CERO: Introducción y primeros pasos"]([https://www.youtube.com/@midulive](https://www.youtube.com/watch?v=yB4n_K7dZV8&t=7575s)).  
 
 ---
 
